@@ -1,0 +1,30 @@
+{
+    "name": "shopex/luban-admin",
+    "license": "MIT",
+    "description": "Luban Laravel Admin Panel",
+    "keywords": [
+        "laravel",
+        "admin",
+        "shopex",
+        "luban",
+        "laravel admin",
+        "laravel admin panel"
+    ],
+    "authors": [
+        {
+            "name": "shopex",
+            "email": "dev@shopex.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.4",
+        "shopex/luban-crud-generator": "^2.1",
+        "laravelcollective/html": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shopex\\LubanAdmin\\": "src/"
+        }
+    }
+}
